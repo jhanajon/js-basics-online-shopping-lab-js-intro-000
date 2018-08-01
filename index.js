@@ -30,7 +30,7 @@ function viewCart() {
     }
   } 
   else if(cart.length === 2) {
-         for ( i = 0;i< cart.length; i++) {
+         for (i = 0;i< cart.length; i++) {
     string += `${ cart[i].itemName } at $${ cart[i].itemPrice }`
       
       if(i === 0){
@@ -42,8 +42,8 @@ function viewCart() {
       
      }
   }
-   else if(cart.length === 3) {
-         for ( i = 0;i< cart.length; i++) {
+   else  {
+         for (i = 0;i< cart.length; i++) {
     string += `${ cart[i].itemName } at $${ cart[i].itemPrice }`
       
       if(i === 0) {
