@@ -29,19 +29,19 @@ function viewCart() {
     string += `${ cart[i].itemName } at $${ cart[i].itemPrice }.`
     }
   } 
-  else if(cart.length === 2) {
-         for (i = 0;i< cart.length; i++) {
-    string += `${ cart[i].itemName } at $${ cart[i].itemPrice }`
+  // else if(cart.length === 2) {
+  //       for (i = 0;i< cart.length; i++) {
+  //   string += `${ cart[i].itemName } at $${ cart[i].itemPrice }`
       
-      if(i === 0){
-        string += `, and `
-      }
-      if(i === 1){
-        string += `.`
-      }
+  //     if(i === 0){
+  //       string += `, and `
+  //     }
+  //     if(i === 1){
+  //       string += `.`
+  //     }
       
-     }
-  }
+  //   }
+  // }
    else  {
          for (i = 0;i< cart.length; i++) {
            if (i < cart.length - 1) {
