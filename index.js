@@ -46,17 +46,7 @@ function viewCart() {
          for (i = 0;i< cart.length; i++) {
     string += `${ cart[i].itemName } at $${ cart[i].itemPrice }`
       
-      if(i === 0) {
-        string += `, `
-      }
-      if(i === 1) {
-        string += `, and `
-      }
-      if(i === 2) {
-        string += `.`
-      }
      }
-     
   }
   return string 
 } 
