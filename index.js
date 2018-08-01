@@ -44,8 +44,10 @@ function viewCart() {
   }
    else  {
          for (i = 0;i< cart.length; i++) {
+           if (i < cart.length - 1) {
+             
+           }
     string += `${ cart[i].itemName } at $${ cart[i].itemPrice }`
-      
      }
   }
   return string 
